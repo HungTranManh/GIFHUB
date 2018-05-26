@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <TextView
+       android:id="@+id/tv_top_menu"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@color/colorPrimaryDark"/>
+    <Button
+        android:id="@+id/btm_back"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="4dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/btn_back"/>
+    <TextView
+        android:layout_toRightOf="@id/btm_back"
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Title"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_alignRight="@id/tv_top_menu"
+        android:id="@+id/btn_font_min"
+        android:layout_width="32dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="4dp"
+        android:layout_height="32dp"
+        android:background="@drawable/btn_font1_hover"/>
+    <Button
+        android:id="@+id/btn_font_max"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_alignRight="@id/tv_top_menu"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/btn_font2_hover"/>
+    <Button
+        android:id="@+id/btn_favorite"
+        android:layout_width="32dp"
+        android:layout_alignRight="@id/tv_top_menu"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bnt_favorite"
+        />
+
+    <ScrollView
+        android:layout_below="@id/tv_top_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:textSize="12sp" />
+    </ScrollView>
+</RelativeLayout>

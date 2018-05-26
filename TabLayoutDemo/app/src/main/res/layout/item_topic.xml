@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/iv_icon_topic"
+        android:src="@drawable/im_1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_icon_topic"
+        android:layout_marginTop="32dp"
+        android:text="Dân Gian"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/iv_icon_topic"/>
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_navigate_next_red_500_24dp"/>
+</RelativeLayout>

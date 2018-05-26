@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@color/colorPrimary"
+    android:text="Register"
+    android:gravity="center"
+    android:textSize="32dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_avt"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/avt_miu_le"
+
+     />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/edt_user_name"
+        android:layout_width="192dp"
+        android:layout_height="48dp"
+        android:textSize="16dp"
+        android:hint="use name"
+      />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/edt_pass_word"
+        android:layout_width="192dp"
+        android:layout_height="48dp"
+        android:textSize="16dp"
+        android:hint="Pass word"
+       />
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="Register"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_register"/>
+
+
+
+</LinearLayout>

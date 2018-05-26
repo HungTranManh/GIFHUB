@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/btn_back"
+        android:layout_marginTop="8dp"
+        android:layout_alignLeft="@id/tv_title_store"
+        />
+    <TextView
+        android:id="@+id/tv_title_store"
+        android:layout_width="match_parent"
+        android:text="Vova"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/colorStringName"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"/>
+    <ListView
+        android:layout_below="@id/tv_title_store"
+        android:id="@+id/lv_store"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+</RelativeLayout>

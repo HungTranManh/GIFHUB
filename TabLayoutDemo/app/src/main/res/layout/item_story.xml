@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_icon_store"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/smile"
+        android:layout_marginLeft="16dp"/>
+    <TextView
+        android:id="@+id/tv_icon_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/iv_icon_store"
+        android:text="Lọ Thuốc Của Vova"/>
+</RelativeLayout>

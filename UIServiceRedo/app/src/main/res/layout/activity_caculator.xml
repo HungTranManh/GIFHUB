@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:text="Calculator"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textColor="#03A9F4"/>
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/edt_num_a"
+        android:layout_width="192dp"
+        android:layout_height="48dp"
+        android:hint="number a"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/edt_num_b"
+        android:layout_width="192dp"
+        android:textSize="16sp"
+        android:layout_height="48dp"
+        android:hint="number b"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="192dp"
+        android:layout_height="48dp"
+        android:id="@+id/tv_result"
+        android:gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:gravity="center"
+    >
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:text="Sub"
+            android:id="@+id/btn_sub"/>
+        <Button
+            android:id="@+id/btn_sum"
+            android:text="Sum"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
